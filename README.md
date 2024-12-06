@@ -87,10 +87,7 @@ Download the code and edit the configuration file properties.conf with your acco
 If you don't have GUI access but have terminal access, you can use the following commands to download the code.
 ### Download the code
 ```
-wget -O main.zip https://github.com/engageub/InternetIncome/archive/refs/heads/main.zip
-sudo apt-get install unzip
-unzip -o main.zip
-cd InternetIncome-main
+wget -O main.zip https://github.com/IKSANNURPADILLAH/InternetIncome/archive/refs/heads/main.zip && sudo apt-get install unzip && unzip -o main.zip && cd InternetIncome-main
 ```
 * Please edit the "properties.conf" file using the following instructions and save the changes.  
 * If you are using proxies, please set the `USE_PROXIES` value to `true`. 
@@ -98,7 +95,7 @@ cd InternetIncome-main
 * If you do not wish to use a particular application, leave the default value as it is, and the script will not run for that application.
 ### Update configuration and save
 ```
-vi properties.conf
+nano properties.conf
 ```
 ## :runner: Run the script
 After you have followed all the mentioned above steps just run the following command to start and check your income flow to you :money_mouth_face:	.
